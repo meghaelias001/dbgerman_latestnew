@@ -1,0 +1,57 @@
+.center {
+    width:300px;
+    margin:0 auto;
+}
+
+.content {
+    float: left;
+    display: block;
+    background: #efefef;
+    border:1px solid #cccccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    width:100%;
+}
+
+.form-row {
+    width:100%;
+    float: left;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type=text], input[type=password] {
+    width:100%;
+    padding:8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #cccccc;
+}
+.width-500 {
+    width:500px !important;
+}
+
+.left {
+    width:30%;
+    float: left;
+}
+.right {
+    width:70%;
+    float: right;
+}
+label {
+    line-height:35px;
+    margin-bottom: 15px;
+}
+th, td {
+    border: 1px solid #cccccc;
+    padding:10px;
+}
+.align-right {
+    width:100%;
+    float: left;
+    text-align: right;
+}

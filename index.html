@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="icon" href="img/fav-icon.png" type="image/png" />
+    <title>Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="vendors/animate/animate.css" rel="stylesheet">
+    <!-- Icon CSS-->
+    <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/et-line-icon/et-line.min.css">
+    <!-- Flexslider CSS-->
+    <link rel="stylesheet" type="text/css" href="vendors/flexslider/flexslider.css" media="all">
+    <!-- Pop Up-->
+    <link rel="stylesheet" type="text/css" href="vendors/popup/lightbox.css" media="all">
+    <!-- Owlcarousel CSS-->
+    <link rel="stylesheet" type="text/css" href="vendors/owl_carousel/owl.carousel.css" media="all">
+    <!-- Video CSS -->
+    <link href="vendors/video/video.css" rel="stylesheet">
+    <!--Theme Styles CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" media="all">
+    <style>
+    .fraction {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 0.2em 0.4ex;
+        text-align: center;
+    }
+
+    .fraction>span {
+        display: block;
+        padding-top: 0.15em;
+    }
+
+    .fraction span.fdn {
+        border-top: thin solid black;
+    }
+
+    .fraction span.bar {
+        display: none;
+    }
+
+    .test {
+        height: 500px;
+        width: 100px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="loading">
+        <div class="preloader">
+            <span>L</span><span>o</span><span>a</span><span>d</span><span>i</span><span>n</span><span>g</span>
+        </div>
+    </div>
+    <!-- Header Area -->
+    <header>
+        <div class="container">
+            <div class="row header_top">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="m0">
+                        <div class="logo_part">
+                            <a class="logo">
+                                <h3><span>Studie</span><span>Investitionsempfehlung</span></h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact_info col-md-8 col-sm-8 col-xs-12">
+
+                    <div class="clearfix">
+                        <div class="uni-logo-holder">
+                            <img src="img/logo.PNG">
+                        </div>
+                        
+                        <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="username" id="username" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="password"  id="password" placeholder="Password">
+                    </div>
+                    <button type="button" name="login" id="login" class="btn btn-default">Login</button>
+                </form>
+                      <p id="loginSuccess" class="pull-right">Incorrect Username or Password</p>  
+                    </div>
+                    <!-- <div class="clearfix">
+                        <div class="form-inline">
+                            <form>
+                                <input type="text" name="username" id="username" class="form-control" placeholder="Username">
+                                <input type="password" name="password" id="password" class="form-control" placeholder="Password">
+                                <input type="button" name="login" id="login" class="btn btn-default" value="Login">
+                            </form>
+                            <p id="loginSuccess" class="pull-right">Incorrect Username or Password</p>
+                        </div>
+                    </div> -->
+                </div>
+                <!-- <div class="col-md-12">
+                    <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="username" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="password" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-default">Sign In</button>
+                </form>
+                </div> -->
+            </div>
+        </div>
+        <!-- Small Menu -->
+        <nav class="navbar navbar-default navbar-static-top small_menu" id="small_navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="logo_part">
+                            <a class="logo">
+                                <h3><span>Studie</span><span>Investitionsempfehlung</span></h3>
+                            </a>
+                        </div>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#small_nav" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="small_nav">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown main_menu active">
+                                    <a href="index.html" class="drop_menu">Home</a>
+                                </li>
+                                <li>
+                                    <a href="about.html">Definitions</a>
+                                </li>
+                                <li class="dropdown main_menu">
+                                    <a href="faq.html" class="drop_menu">FAQ</a>
+                                </li>
+                            </ul>
+                            <a class="consult" href="distribution-builder.php" role="button">Distribution Builder</a>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                </div>
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <!-- Big Menu -->
+        <nav class="navbar navbar-default navbar-static-top big_menu" id="main_navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_nav" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="main_nav">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown main_menu active">
+                                    <a href="index.html" class="dropdown-toggle drop_menu">Home</a>
+                                </li>
+                                <li class="main_menu">
+                                    <a href="einverstandnis.html" class="dropdown-toggle drop_menu">Einverständnis</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                </div>
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    <!-- End Header Area -->
+    <!-- Banner Area -->
+    <section class="banner banner_home1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div>
+                                    <h1>Willkommen zur Studie Investitionsempfehlung!</h1>
+                                    <div class="text-carousel-description">
+                                        <p>In dieser Studie werde Sie mithilfe einer neuen Methodik eine persönliche Investitionsempfehlung bezüglich der Aufteilung Ihrer Ersparnisse in Aktien und ein Festgeldkonto bekommen. Dafür müssen Sie Sich mit ein paar Konzepten der Finanzwelt vertraut machen und danach den Aufforderungen auf dem Bildschirm folgen. Im Anschluss an Ihre Investitionsempfehlung werden wir ihnen einige Fragen zu Ihrer Person und Ihrer finanziellen Situation stellen.
+                                        </p>
+                                    </div>
+                                    <div class="btn-wrap text-center">
+                                        <a class="btn btn-primary btn-lg" href="einverstandnis.html" role="button">Weiter zur Einverständniserklärung</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+    <!-- Service 2 Area -->
+    <!-- End Testimonial Area -->
+    <!-- Footer Area -->
+       <footer>
+        <div class="footer_top">
+            <div class="container">
+                <div class="footer_sidebar">
+                    <div class="widget widget1 col-md-4">
+                        <div class="logo_part">
+                            <a class="logo">
+                                <h3><span>Studie</span><span>Investitionsempfehlung</span></h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="widget_inner row m0">
+                        <div class="img_box">
+                        </div>
+                        <div class="img_box">
+                        </div>
+                        <div class="img_box">
+                        </div>
+                        <div class="img_box">
+                        </div>
+                        <div class="img_box">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <div class="footer_bottom_area">
+                        <div class="col-sm-8 footer_bottom_left">
+                            Copyright &copy; <a>Universität Basel</a> 2017.
+                            <br class="visible-xs">Verantwortlicher: Sebastian Olschewski, sebastian.olschewski@unibas.ch
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Area -->
+    
+    <!-- jQuery JS -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Animate JS -->
+    <script src="vendors/animate/wow.min.js"></script>
+    <!-- Isotope -->
+    <script src="vendors/isotop/isotope-docs.min.js"></script>
+    <!-- Pop Up -->
+    <script src="vendors/popup/lightbox.min.js"></script>
+    <!-- Owlcarousel JS -->
+    <script src="vendors/owl_carousel/owl.carousel.min.js"></script>
+    <!-- Counterup JS -->
+    <script src="vendors/counter/waypoints.min.js"></script>
+    <script src="vendors/counter/jquery.counterup.min.js"></script>
+    <!-- Theme JS -->
+    <script src="js/theme.js"></script>
+    <script>
+    $(document).ready(function() {
+		
+	   $('#loginSuccess').hide();
+        $('#login').on('click', function(e) {
+
+		var username = $('#username').val();
+            var password = $('#password').val();
+            //alert(username);
+            //alert(password);
+            $.ajax({
+                url: 'loginCheck.php',
+                type: 'POST',
+                data: { 'username': username, 'password': password },
+                success: function(data) {
+                    //alert(data);
+                    if (data == 'success') {
+                        location.href = 'admin/index.php';
+                    } else {
+                        $('#loginSuccess').show();
+                    }
+                }
+            })
+        })
+    })
+    </script>
+</body>
+
+</html>

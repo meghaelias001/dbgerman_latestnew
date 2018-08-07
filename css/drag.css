@@ -1,0 +1,48 @@
+#div1 { height: 600px; min-height: 35px; margin: 10px; padding: 5px; width: 140px; display: table-cell; vertical-align: bottom; }
+#drop, .drop { display: table-cell; vertical-align: bottom; min-height: 35px; margin: 10px; border: 1px dashed #d6d6d6; padding: 5px 5px 30px 5px; height: 570px; position: relative; min-width: 38px; max-width: 100px; }
+.graph img { padding: 4px; border: 1px solid #f1f1f1; margin-bottom: 5px; /*width: 17px;*/ -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 1px 1px 10px 0 #ccc; -moz-box-shadow: 1px 1px 10px 0 #ccc; box-shadow: 1px 1px 10px 0 #ccc; height: 24px; }
+.person { float: left; width: 24px; height: 33px; margin: 10px; padding: 10px; border: 1px solid black; }
+.xaxis { position: absolute; bottom: 0; left: 0; width: 100%; text-align: center; font-weight: bold; }
+.updatedValue { width: 100px; border-radius: 10px; font-weight: bold; background: #ff0000; color: #fff; padding: 5px 10px; text-align: center; display: table-cell; vertical-align: middle; font-size: 24px; margin-bottom: 20px; float: left; -webkit-box-shadow: 1px 1px 1px 6px #d6d6d6; -moz-box-shadow: 1px 1px 1px 6px #d6d6d6; box-shadow: 1px 1px 1px 6px #d6d6d6; }
+#outcome { font-weight: bold; }
+
+/*.container {
+    width: 1200px;
+    margin: 0 auto;
+}*/
+.graph { /*float: left; display: block; min-width: 875px; */ margin: 25px auto;}
+.result { width: 100%; margin: 0 auto; }
+button { padding: 5px 10px; background: #383; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; border: none; color: #fff; text-align: center; float: right; font-size: 20px; margin: 0 0 20px 10px; }
+form { float: left; margin-bottom: 30px; }
+/*section { float: left; width: 90%; margin-left: 5%; min-height: 500px; padding: 40px 0; }
+footer { float: left; width: 100%; }*/
+.form-row { width: 100%; float: left; margin-bottom: 10px; }
+#demographyScreen, #feedbackScreen, #feedbackScreen2, #feedbackScreen3, #outputScreen, #finalResult { display: none; }
+.drop img.selected { border: 1px solid #25559a; }
+.result span { /*float: left;*/ margin-right: 20px; font-size: 20px; font-weight: bold; display: flex; }
+h3, p { margin-bottom: 15px !important; }
+
+@media (max-width: 767px){
+
+#drop, .drop {
+    display: table-cell;
+    vertical-align: bottom;
+    min-height: 35px;
+    margin: 10px;
+    border: 1px dashed #d6d6d6;
+    padding: 5px 5px 30px 5px;
+    height: 400px;
+    position: relative;
+    min-width: auto;
+    max-width: 170px;
+}
+.xaxis {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+}
+}
